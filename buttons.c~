@@ -48,6 +48,7 @@ void int_handler(unsigned pc) {
     	  cir_enqueue(circ, cnt);
 	  }
   }
+  //gpio_check_and_clear_event(GPIO_PIN21);
 }
 
 void setup_interrupts() {

@@ -9,7 +9,7 @@ OBJECTS = interrupt_handlers.o
 # gpio.o timer.o printf.o backtrace.o malloc.o keyboard.o shell.o fb.o gl.o console.o circular.o
 
 LIBPI_STUDENT_MODULES = gpio.o timer.o printf.o backtrace.o malloc.o shell.o fb.o gl.o console.o circular.o gprof.o buttons.o
-LIBPI_REFERENCE_MODULES = 
+LIBPI_REFERENCE_MODULES = rand.o
 
 CS107E=../cs107e.github.io
 

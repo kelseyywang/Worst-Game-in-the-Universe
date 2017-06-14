@@ -12,4 +12,5 @@ void setup_interrupts();
 void buttons_init(void);
 int returnButton1();
 int returnButton2();
+int isEmpty(unsigned int buttonNum);
 #endif
